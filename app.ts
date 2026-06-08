@@ -1,12 +1,10 @@
 import express, { type Express } from "express";
 import cors from "cors";
 import pinoHttp from "pino-http";
-"./index.ts";
 const app: Express = express();
 
 app.use(
   pinoHttp({
-    logger,
     serializers: {
       req(req) {
         return {
