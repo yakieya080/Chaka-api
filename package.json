@@ -2,10 +2,7 @@
   "name": "chaka-api",
   "version": "1.0.0",
   "scripts": {
-  "build": "tsc",
-  "start": "node index.js"
-  },
-    "start": "node index.ts"
+    "start": "node index.js"
   },
   "dependencies": {
     "react": "^18.2.0",
