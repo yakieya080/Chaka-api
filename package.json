@@ -6,6 +6,9 @@
   },
   "dependencies": {
     "express": "4.19.2",
+    "cors": "2.8.5",
+  "pino": "9.0.0",
+  "pino-http": "10.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "lucide-react": "^0.378.0",
@@ -14,4 +17,8 @@
     "tailwind-merge": "^2.3.0",
     "framer-motion": "^11.2.0"
   }
+}
+"dependencies": {
+  "express": "4.19.2",
+  
 }
