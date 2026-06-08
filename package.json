@@ -2,7 +2,7 @@
   "name": "chaka-api",
   "version": "1.0.0",
   "scripts": {
-    "start": "node index.ts"
+    "start": "node --loader ts-node/esm index.ts"
   },
   "dependencies": {
     "react": "^18.2.0",
