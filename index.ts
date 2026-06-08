@@ -1,4 +1,4 @@
-import { app } from "./app.ts";
+"./app.ts";
 import { logger } from "./lib/logger";
 
 const rawPort = process.env["PORT"];
