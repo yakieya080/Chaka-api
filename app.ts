@@ -2,8 +2,6 @@ import express, { type Express } from "express";
 import cors from "cors";
 import pinoHttp from "pino-http";
 "./index.ts";
-import { logger } from "./lib/logger";
-
 const app: Express = express();
 
 app.use(
