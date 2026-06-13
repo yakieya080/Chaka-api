@@ -3,13 +3,15 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "start": "node --loader ts-node/esm index.ts"
+    "start": "node --loader ts-node/esm index.ts",
+    "build": "vite build"
   },
   "dependencies": {
-    "express": "4.19.2",
-    "cors": "2.8.5",
-  "pino": "9.0.0",
-  "pino-http": "10.0.0",
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "@tanstack/start": "latest",
+    "pino": "9.0.0",
+    "pino-http": "10.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "lucide-react": "^0.378.0",
